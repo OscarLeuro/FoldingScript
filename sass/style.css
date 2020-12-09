@@ -1,0 +1,40 @@
+.menu {
+  border: solid 2px grey;
+  width: 300px;
+}
+
+.tab {
+  background: rgba(128, 128, 128, 0.205);
+  border: solid 1px grey;
+  padding: 10px;
+}
+
+.tab:hover {
+  background: grey;
+  cursor: pointer;
+}
+
+.sub-menu {
+  height: 0px;
+  padding: 0px;
+  overflow: hidden;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.sub-menu-show {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  padding: 10px;
+}
+
+.bgred {
+  background: red;
+  color: white;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  padding: 10px;
+}
+/*# sourceMappingURL=style.css.map */
